@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Design MockUp | Design</title>
+</head>
+<body>
+    <section class="design">
+        <header>
+            <h2 class="logo">Contact Us</h2>
+            <div class="toggle"></div>
+        </header>
+
+
+        <img src="./images/livingroom-03.jpg"></img>
+
+
+        <div class="overlay"></div>
+
+
+        <div class="text">
+            <h3>Let's Get In Touch</h3>
+            <p>Clifton Buckley<br>123.456.7890<br>San Francisco, CA<br>12345</p>
+        
+
+                <a href="#">Project Inquiry</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://twitter.com/">Tweeter</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+        
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/index-2.html">Design</a></li>
+            <li><a href="/index-3.html">About us</a></li>
+        </ul>   
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.design')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        }
+        )
+    </script>
+</body>
+</html>
