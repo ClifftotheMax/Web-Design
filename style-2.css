@@ -58,8 +58,9 @@
     background-repeat: no-repeat;
     background-size: 30px;
     background-position: center;
-    filter: invert(0);
+    filter: invert(1);
     cursor: pointer;
+    border-style: ridge; border-color: rgba(128, 128, 128, 0.115);
 }
 
 .toggle.active {
@@ -67,7 +68,7 @@
     background-repeat: no-repeat;
     background-size: 25px;
     background-position: center;
-    filter: invert(0);
+    filter: invert(1);
     cursor: pointer; 
 }
 

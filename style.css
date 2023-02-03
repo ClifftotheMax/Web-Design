@@ -63,6 +63,7 @@
     background-position: center;
     filter: invert(1);
     cursor: pointer;
+    border-style: ridge; border-color: rgba(128, 128, 128, 0.115);
 }
 
 .toggle.active {
