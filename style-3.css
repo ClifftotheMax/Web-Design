@@ -11,7 +11,7 @@
     font-family: 'sail';
 }
 
-.design {
+.aboutus {
     position: absolute; 
     right: 0;
     width: 100%;
@@ -26,11 +26,11 @@
     transition: 0.5s;
 }
 
-.design.active {
+.aboutus.active {
     right: 300px;
 }
 
-.design header {
+.aboutus header {
     position: absolute;
     top: 0;
     left: 0;
@@ -71,7 +71,7 @@
 }
 
 
-.design img {
+.aboutus img {
     position: absolute;
     top: 0;
     left: 0;

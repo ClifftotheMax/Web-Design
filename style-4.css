@@ -11,7 +11,7 @@
     font-family: 'sail';
 }
 
-.design {
+.contact {
     position: absolute; 
     right: 0;
     width: 100%;
@@ -26,11 +26,11 @@
     transition: 0.5s;
 }
 
-.design.active {
+.contact.active {
     right: 300px;
 }
 
-.design header {
+.contact header {
     position: absolute;
     top: 0;
     left: 0;
@@ -71,7 +71,7 @@
 }
 
 
-.design img {
+.contact img {
     position: absolute;
     top: 0;
     left: 0;
