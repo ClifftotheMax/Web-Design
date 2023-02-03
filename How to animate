@@ -1,0 +1,56 @@
+-- Aniamtion Cheat--
+
+
+-- Example of div -- 
+
+div {
+    width: 150px;
+    height: 150px;
+    animation-name: example;
+    animation-duration: .5s;
+    transition-timing-function: ease-in-out; /* example of ease in and out */ 
+    animation-iteration-count: 1; /*a number, infinite, initial, inherit */
+}
+
+@keyframes example {
+    /* the div has to have the keyframe name inside of it to recgnize it. Expresses the action*/
+}
+
+/*
+keyframe animation properties 
+
+
+0% {
+    transform: translateX(0);    
+}
+
+10% {
+    transform: translateX(-30%) translateY(60%) rotate(-90deg) scale(50%);
+}
+
+25% {
+    transform: translateX(-70%) translateY(50%) rotate(120deg);
+}
+
+50% {
+    transform: translateX(-60%) translateY(60%) rotate(-200deg) scale(2%);
+}
+65% {
+    transform: translateX(75%) translateY(75%) rotate(360deg);
+}
+80% {
+    transform: translateX(85%) translateY(85%) rotate(-120deg) scale(600%);
+}
+
+100% {
+    transform: translateX(100%) translateY(100%) rotate(90deg);
+}
+
+
+0% {width: 150px; height: 150px;}
+25% {width: 155px; height: 155px;}
+50% {width: 150px; height: 150px;}
+75% {width: 155px; height: 155px;}
+100% {width: 150px; height: 150px;}
+
+*/

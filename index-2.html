@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style-2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+    <title>Design MockUp | Design</title>
+</head>
+<body>
+    <section class="design">
+        <header>
+            <h2 class="logo">Design</h2>
+            <div class="toggle"></div>
+        </header>
+
+
+        <img src="./images/livingroom-01.jpg"></img>
+
+
+        <div class="overlay"></div>
+
+
+        <div class="text">
+            <h2>Showroom</h2>
+            <h3>Warm Fire, Cozy Home Deco</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, 
+                aliquid officiis praesentium error odit mollitia laboriosam eligendi 
+                dolorem ducimus optio, quia ratione. Dolorem delectus tempora, 
+                architecto repudiandae quod vel magnam doloremque amet earum officia nulla 
+                voluptatum a. Vel veniam ut dolore distinctio quidem accusamus. Cupiditate 
+                itaque nisi sunt soluta at enim iste ut reiciendis qui nostrum officiis ipsum
+                 placeat debitis libero delectus sapiente vero recusandae consectetur ullam 
+                 harum, porro perspiciatis. Voluptatem laborum voluptatibus tempora mollitia 
+                 facere dicta, quae iste. Quas explicabo repudiandae nobis error! Voluptatum
+                 quas, unde, labore magni architecto eum omnis provident minus esse quidem 
+                 possimus cum veniam distinctio?</p>
+                <a href="#">Details</a>
+        </div>
+
+        <ul class="social">
+            <li><a href="https://www.facebook.com/">Facebook</a></li>
+            <li><a href="https://twitter.com/">Tweeter</a></li>
+            <li><a href="https://www.instagram.com/">Instagram</a></li>
+        </ul>
+        
+    </section>
+
+    <div class="menu">
+        <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Contacts</a></li>
+        </ul>   
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.design')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        }
+        )
+    </script>
+</body>
+</html>
